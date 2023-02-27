@@ -16,6 +16,6 @@ public class CarController {
 
     @GetMapping("/cars")
     public CarDTO getCar(){
-        return new CarDTO("1","Fiat",200D);
+        return new CarDTO();
     }
 }
